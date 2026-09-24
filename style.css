@@ -13,11 +13,11 @@
     margin: 0;
     padding: 0;
 }
-.navbar li{
+.navbar ul li{
     display: inline;
     margin: 0 1em;
 }
-.navbar li a{
+.navbar ul li a{
     color: #fff;
 }
 .main-content{
@@ -27,12 +27,12 @@
     padding: 2em 1em;
     text-align: center;
 }
-#home h1{
+.main-content #home h1{
     font-size: 2.5em ;
     margin-bottom:0.5em ;
 
 }
-#home p{
+.main-content #home p{
     font-size: 1.2em;
     color: #666;
 }
@@ -42,7 +42,7 @@
     justify-content: space-around;
     padding: 1em;
 }
-.portfolio-item{
+.portfolio-container.portfolio-item{
     background-color: #fff;
     border: 1px solid #ddd;
     margin: 1em;
